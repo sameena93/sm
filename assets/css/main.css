@@ -8651,7 +8651,7 @@ input, select, textarea {
 }
 
 
-
+/* 
 /* Spotlight Section */
 section.spotlight {
     padding: 0; /* Remove extra padding */
@@ -8679,4 +8679,4 @@ section.spotlight .image video {
     max-width: 100%; /* Make video responsive */
     height: auto; /* Maintain aspect ratio */
     border-radius: 4px; /* Optional: rounded corners */
-}
+} */
