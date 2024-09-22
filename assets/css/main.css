@@ -3810,7 +3810,7 @@ input, select, textarea {
 /* Banner (style3) */
 
 	.banner.style3 {
-		padding: 7rem 7rem 5rem 7rem ;
+		padding: 2rem 2rem 2rem 2rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3878,7 +3878,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style3 {
-				padding: 4rem 4rem 2rem 4rem ;
+				padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
 			}
 
 		}
@@ -3907,8 +3907,8 @@ input, select, textarea {
 			}
 
 				.banner.style3 .image {
-					width: 15.75rem;
-					height: 15.75rem;
+					width: 15rem;
+					height: 15rem;
 					margin: 0 2rem 2rem 0;
 				}
 
@@ -3979,6 +3979,8 @@ input, select, textarea {
 
 			}
 
+		
+
 		.banner.style3.content-align-center {
 			text-align: center;
 		}
@@ -4000,6 +4002,12 @@ input, select, textarea {
 			-ms-object-position: right;
 			object-position: right;
 		}
+
+		.banner.style3 {
+			max-width: 1200px; /* Set a max width to prevent expansion */
+			margin: 0 auto; /* Center the banner */
+	}
+		
 
 /* Banner (style4) */
 
@@ -8644,3 +8652,31 @@ input, select, textarea {
 
 
 
+/* Spotlight Section */
+section.spotlight {
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove margin if needed */
+    display: flex; /* Use flexbox to align content */
+    align-items: center; /* Center items vertically */
+}
+
+/* Content Area */
+section.spotlight .content {
+    flex: 1; /* Allow content to take available space */
+    padding: 0.5em; /* Optional: minimal padding */
+}
+
+/* Video Container */
+section.spotlight .image {
+    flex: 1; /* Allow the video area to take available space */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center video horizontally */
+    align-items: center; /* Center video vertically */
+    padding: 0; /* Remove extra padding */
+}
+/* Video Styling */
+section.spotlight .image video {
+    max-width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Optional: rounded corners */
+}
