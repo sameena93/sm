@@ -3512,6 +3512,7 @@ input, select, textarea {
 
 			.banner.style1 .content {
 				padding: 5rem 5rem 3rem 5rem ;
+			
 			}
 
 		}
@@ -3520,6 +3521,7 @@ input, select, textarea {
 
 			.banner.style1 .content {
 				padding: 4rem 4rem 2rem 4rem ;
+				
 			}
 
 		}
@@ -3528,6 +3530,7 @@ input, select, textarea {
 
 			.banner.style1 .content {
 				padding: 3.75rem 3rem 1.75rem 3rem ;
+				
 			}
 
 		}
@@ -4871,7 +4874,7 @@ input, select, textarea {
 	}
 
 		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			padding: 2rem 2rem 1rem 2rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4886,7 +4889,7 @@ input, select, textarea {
 			flex-shrink: 1;
 			width: 65%;
 			max-width: 64rem;
-			margin: 0 auto;
+			margin: 0 auto ;
 		}
 
 		.spotlight.style1 .image {
@@ -8651,32 +8654,9 @@ input, select, textarea {
 }
 
 
-/* 
-/* Spotlight Section */
-section.spotlight {
-    padding: 0; /* Remove extra padding */
-    margin: 0; /* Remove margin if needed */
-    display: flex; /* Use flexbox to align content */
-    align-items: center; /* Center items vertically */
+.spotlight .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding:0;
 }
-
-/* Content Area */
-section.spotlight .content {
-    flex: 1; /* Allow content to take available space */
-    padding: 0.5em; /* Optional: minimal padding */
-}
-
-/* Video Container */
-section.spotlight .image {
-    flex: 1; /* Allow the video area to take available space */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center video horizontally */
-    align-items: center; /* Center video vertically */
-    padding: 0; /* Remove extra padding */
-}
-/* Video Styling */
-section.spotlight .image video {
-    max-width: 100%; /* Make video responsive */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 4px; /* Optional: rounded corners */
-} */
